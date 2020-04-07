@@ -73,6 +73,8 @@
             this.Controls.Add(this.button);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(504, 315);
+            this.MinimumSize = new System.Drawing.Size(504, 315);
             this.Name = "Form1";
             this.Text = "Умножение столбиком";
             this.Load += new System.EventHandler(this.Form1_Load);
